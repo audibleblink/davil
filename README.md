@@ -3,6 +3,17 @@
 Host a website with an image at a UNC path and get creds. Bypasses Intranet Zones and forces auth
 over the Internet.
 
+__A normal looking web page__
+
+![](https://i.imgur.com/fVEv9uJ.png)
+
+
+__Behind the Scenes__
+
+![](https://i.imgur.com/o2jjw65.png)
+
+
+
 ## Usage
 
 **With Docker**
