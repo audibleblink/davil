@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+$stdout.sync = true
 require 'sinatra/base'
 require 'sinatra/webdav'
 require 'rubyntlm'
