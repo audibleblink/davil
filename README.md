@@ -23,6 +23,16 @@ __Behind the Scenes__
 
 **With Just Ruby**
 ```sh
+# If you already have a ruby dev env
+bundle
+ruby server.rb 192.168.99.101 443
+
+
+# Else
+apt install rbenv ruby-build
+rbenv install 2.4.1
+eval $(rbenv init -)
+
 bundle
 ruby server.rb 192.168.99.101 443
 ```
