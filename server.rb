@@ -4,6 +4,7 @@
 $stdout.sync = true
 require 'sinatra/base'
 require 'sinatra/webdav'
+require 'ipaddr'
 require 'rubyntlm'
 
 $HOST = ARGV[0] || '192.168.205.1'
