@@ -1,6 +1,3 @@
-# Under FrieNDA, rights granted by audibleblink
-# DO NOT DISTRIBUTE
-
 $stdout.sync = true
 require 'sinatra/base'
 require 'sinatra/webdav'

@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# Under FrieNDA, rights granted by audibleblink
-# DO NOT DISTRIBUTE
-
 [[ $# -eq 2 ]] || (echo 'Usage: $0 <ip> <port>' && exit 1)
 
 # Check that davil image exists
